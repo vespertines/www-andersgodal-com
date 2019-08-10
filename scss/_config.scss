@@ -1,0 +1,75 @@
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('font/Graphik-Semibold-Web.woff2') format('woff2'),
+       url('font/Graphik-Semibold-Web.woff') format('woff');
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.Graphik-Semibold-Web {
+  font-family: 'Graphik Web';
+  font-weight: 600;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+@font-face {
+  font-family: 'Graphik Web';
+  src: url('font/Graphik-Regular-Web.woff2') format('woff2'),
+       url('font/Graphik-Regular-Web.woff') format('woff');
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+.Graphik-Regular-Web {
+  font-family: 'Graphik Web';
+  font-weight: 400;
+  font-style: normal;
+  font-stretch: normal;
+}
+
+$black: #2d2d2d;
+$white: #ffffff;
+$grey: #b4b4b4;
+
+$f1: 45px;
+$f2: 32px;
+$f3: 20px;
+
+* {
+  font-family: 'Graphik Web';
+}
+
+body {
+  font-synthesis: none;
+  -moz-font-feature-settings: 'kern';
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  font-family: 'Graphik Web';
+}
+
+footer, h1, h2, h3, h4, h5, header, li, main, ol, p, span, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+h1, h2, h3, h4, h5 {
+  font-weight: 600;
+}
+
+img {
+  max-width: 100%;
+}
+
+footer, h1, h2, h3, h4, h5, header, li, main, ol, p, span, ul {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+li {
+  list-style: none;
+}
