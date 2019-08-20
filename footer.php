@@ -11,7 +11,7 @@
                 <h3>Want to get in touch,
                 <br>collaborate or just say hello?
                 </h3>
-                <span>&copy; <?php echo date("Y"); ?> Anders Godal</span>
+                <span class="desktop">&copy; <?php echo date("Y"); ?> Anders Godal</span>
             </div>
 
             <div class="col-3">
@@ -19,6 +19,7 @@
                 <span><a href="mailto:hello@andersgodal.com">hello@andersgodal.com</a>
                 <br>+47 986 15 707
                 <br>LinkedIn</span>
+                <span class="mobile">&copy; <?php echo date("Y"); ?> Anders Godal</span>
             </div>
             </div>
         </div>

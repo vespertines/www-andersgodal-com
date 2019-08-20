@@ -64,8 +64,8 @@ $breakpoint-large: 60em; // 960px
 
 .row [class^="col"] {
   float: left;
-  margin: 10px 2%;
-  min-height: 0.125rem;
+  margin: 0 2%;
+  min-height: 1px;
 }
 
 .row::after {
