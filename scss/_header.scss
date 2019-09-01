@@ -6,13 +6,13 @@ header {
   background-color: $white;
   font-size: 0;
 
-  @media only screen and (max-width: 720px) {
+  @media only screen and (max-width: 768px) {
     height: 60px;
   }
   
   nav {
     ul {
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 768px) {
         display: none;
       }
 
@@ -24,8 +24,8 @@ header {
         &:first-of-type {
           padding-right: 80px;
 
-          @media only screen and (max-width: 1080px) {
-            padding-right: 40px;
+          @media only screen and (max-width: 1200px) {
+            padding-right: 20px;
           }
 
           @media only screen and (max-width: 840px) {
@@ -56,19 +56,23 @@ header {
       display: none;
       position: fixed;
       top: 0;
-      right: 0;
+      right: calc(30px + 2%);
       width: 60px;
       height: 60px;
       cursor: pointer;
 
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 768px) {
         display: block;
+      }
+
+      @media only screen and (max-width: 767px) {
+        right: 2%;
       }
 
       span {
         display: block;
         position: absolute;
-        top: 28px;
+        top: 32px;
         right: 20px;
         width: 18px;
         height: 1px;
@@ -76,7 +80,7 @@ header {
         transition: all 0.25s;
 
         &:first-of-type {
-          top: 23px;
+          top: 27px;
         }
       }
 
@@ -84,7 +88,7 @@ header {
         span {
           transform: rotate(45deg);
           transform-origin: 50% 50%;
-          top: 23px;
+          top: 27px;
 
           &:first-of-type {
             transform: rotate(-45deg);
@@ -109,15 +113,22 @@ header {
         font-size: 17px;
       }
 
-      @media only screen and (max-width: 720px) {
+      @media only screen and (max-width: 768px) {
         position: fixed;
         top: 0;
-        left: 20px;
         margin-top: 20px;
 
         span {
           display: none;
         }
+      }
+      
+      @media only screen and (min-width: 768px) and (max-width: 1079px) {
+        left: calc(50px + 2%);
+      }
+
+      @media only screen and (max-width: 767px) {
+        left: calc(20px + 2%);
       }
     }
   }

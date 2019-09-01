@@ -7,20 +7,20 @@
     <footer>
         <div class="container">
             <div class="row">
-            <div class="col-9">
-                <h3>Want to get in touch,
-                <br>collaborate or just say hello?
-                </h3>
-                <span class="desktop">&copy; <?php echo date("Y"); ?> Anders Godal</span>
-            </div>
+                <div class="col-9">
+                    <h3>Want to get in touch,
+                    <br>collaborate or just say hello?
+                    </h3>
+                    <span class="desktop">&copy; <?php echo date("Y"); ?> Anders Godal</span>
+                </div>
 
-            <div class="col-3">
-                <h4>Contact</h4>
-                <span><a href="mailto:hello@andersgodal.com">hello@andersgodal.com</a>
-                <br>+47 986 15 707
-                <br>LinkedIn</span>
-                <span class="mobile">&copy; <?php echo date("Y"); ?> Anders Godal</span>
-            </div>
+                <div class="col-3">
+                    <h4>Contact</h4>
+                    <span><a href="mailto:hello@andersgodal.com">hello@andersgodal.com</a>
+                    <br>+47 986 15 707
+                    <br>LinkedIn</span>
+                    <span class="mobile">&copy; <?php echo date("Y"); ?> Anders Godal</span>
+                </div>
             </div>
         </div>
     </footer>
