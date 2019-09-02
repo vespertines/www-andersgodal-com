@@ -38,7 +38,7 @@ $image_20 = get_field("image_20");
                 <div class="col-3"></div>
                 <div class="col-9">
                     <h3><?php echo $client; ?></h3>
-                    <h2><?php // the_title(); ?>Anders Godal <span>Design + Direction</span></h2>
+                    <h2><?php the_title(); ?></h2>
                     <p><?php echo $description; ?></p>
                 </div>
             </div>
