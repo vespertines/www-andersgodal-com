@@ -17,8 +17,8 @@
                 <div class="col-3">
                     <h4>Contact</h4>
                     <span><a href="mailto:hello@andersgodal.com">hello@andersgodal.com</a>
-                    <br>+47 986 15 707
-                    <br>LinkedIn</span>
+                    <br><a href="tel:+4798615707">+47 986 15 707</a>
+                    <br><a href="https://www.linkedin.com/in/anders-godal-35b6039/" target="_blank">LinkedIn</a></span>
                     <span class="mobile">&copy; <?php echo date("Y"); ?> Anders Godal</span>
                 </div>
             </div>

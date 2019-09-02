@@ -14,12 +14,12 @@ footer {
     }
 
     @media only screen and (min-width: 720px) and (max-width: 768px) {
-        .col-3, .col-9 {
-            width: ($width / 3) - ($gutter * 8 / 12);
+        .col-9 {
+            width: 58%;
         }
 
         .col-3 {
-            padding-left: ($width / 3) - ($gutter * 8 / 12);
+            width: 34%;
         }
     }
 
@@ -34,12 +34,12 @@ footer {
             font-size: 24px;
         }
 
-        @media only screen and (min-width: 601px) and (max-width: 768px) {
+        @media only screen and (min-width: 721px) and (max-width: 768px) {
             margin-bottom: 30px;
-            font-size: 21px;
+            font-size: 17px;
         }
 
-        @media only screen and (max-width: 600px) {
+        @media only screen and (max-width: 720px) {
             margin-bottom: 30px;
             font-size: 17px;
         }
@@ -80,14 +80,15 @@ footer {
         display: none;
         padding-top: 30px;
 
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 720px) {
             display: block;
         }
     }
 
     .desktop {
-        @media only screen and (max-width: 768px) {
+        @media only screen and (max-width: 720px) {
             display: none;
         }
     }
+    
 }
