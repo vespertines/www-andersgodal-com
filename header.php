@@ -58,9 +58,8 @@
 
     <div>
       <a href="mailto:hello@andersgodal.com">hello@andersgodal.com</a>
-      <a href="tel:+44785008039">+44 (0)7850 080398</a>
-      <a href="#">LinkedIn</a>
-      <a href="#">Download CV</a>
+      <a href="tel:+4798615707">+47 986 15 707</a>
+      <a href="https://www.linkedin.com/in/anders-godal-35b6039/" target="_blank">LinkedIn</a>
     </div>
 
     <span>&copy; <?php echo date("Y"); ?> Anders Godal</span>

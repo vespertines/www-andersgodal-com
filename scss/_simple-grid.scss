@@ -43,17 +43,23 @@ $breakpoint-med: 45em; // 720px
 $breakpoint-large: 60em; // 960px
 
 .container {
-  width: 96%;
+  max-width: 1080px;
   margin-left: auto;
   margin-right: auto;
 
-  @media only screen and (min-width: $breakpoint-small) {
-    width: 96%;
+  @media only screen and (min-width: 1080px) {
+    padding-left: 90px;
+    padding-right: 90px;
   }
 
-  @media only screen and (min-width: $breakpoint-large) {
-    width: 96%;
-    max-width: 73.75rem;
+  @media only screen and (min-width: 769px) and (max-width: 1079px) {
+    padding-left: 50px;
+    padding-right: 50px;
+  }
+
+  @media only screen and (max-width: 768px) {
+    padding-left: 20px;
+    padding-right: 20px;
   }
 }
 
@@ -64,8 +70,8 @@ $breakpoint-large: 60em; // 960px
 
 .row [class^="col"] {
   float: left;
-  margin: 10px 2%;
-  min-height: 0.125rem;
+  margin: 0 2%;
+  min-height: 1px;
 }
 
 .row::after {
