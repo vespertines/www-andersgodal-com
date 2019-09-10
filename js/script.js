@@ -127,4 +127,23 @@ jQuery(document).ready(function () {
             });
         }
     });
+
+   var iframe = document.querySelector("iframe");
+   var player = new Vimeo.Player(iframe);
+
+   player
+       .setAutopause(false)
+       .then(function(autopause) {
+       })
+       .catch(function(error) {
+           switch (error.name) {
+               case "UnsupportedError":
+                   // Autopause is not supported with the current player or browser
+                   break;
+
+               default:
+                   // some other error occurred
+                   break;
+           }
+       });
 });
