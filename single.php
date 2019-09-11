@@ -84,7 +84,7 @@ $image_20 = get_field("image_20");
                                 the_sub_field('autoplay');
                                 echo '&loop=';
                                 the_sub_field('loop');
-                                echo '&quality=1080p" frameborder="0" allow="autoplay; fullscreen" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>';
+                                echo '&quality=1080p" frameBorder="0" allow="autoplay; fullscreen" webkitAllowFullScreen mozallowfullscreen allowFullScreen></iframe></div></div>';
                             endif;
                         endwhile;
                     else :
